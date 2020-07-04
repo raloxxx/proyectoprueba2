@@ -1,3 +1,0 @@
-bootsrap
-git
-github

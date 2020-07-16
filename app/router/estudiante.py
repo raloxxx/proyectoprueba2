@@ -8,8 +8,8 @@ def estudiante_router(app, db):
 
     #http://www.localhost:5000/
     #Definimos la ruta
-    @app.route('/')
-    def listar():
+    @app.route('/estudiante')
+    def listar_estudiante():
         conn = db.connect() # Conexión a la Base de Datos
         query = conn.execute("select * from estudiante")  # Esta línea ejecuta un query y retorna un json como resultado
         estudiantes = {'estudiantes': [i[0] for i in query.cursor.fetchall()]}

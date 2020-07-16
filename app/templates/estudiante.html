@@ -9,5 +9,12 @@
 </head>
 <body>
     {{estudiantes}}
+    <!-- / = https://www.localhost.com -->
+    <!-- /guardar = https://www.localhost.com/guardar -->
+    <form action="/guardar" method="POST">
+        <input type="text" id="nombre" name="nombres" class="text">
+        <input type="text" name="apellido" class="text">
+        <input type="submit" class="submit">
+    </form>
 </body>
 </html>

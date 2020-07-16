@@ -20,3 +20,34 @@ para ejecutar utilizamos el comando
 
 # Crean una ruta luego la configuran en el archivo __init__.py de app
 ### guiense de rutas estudiante
+
+
+
+#################################
+instalar la dependencia
+pip install virtualenv
+
+creamos el entorno virtual
+virtualenv nombredelentorno
+
+EN windows
+./nombredelentorno/Scripts/activate
+SI UTILIZAN GIT
+source ./nombredelentorno/Scripts/activate
+
+CURSOS
+ALUMNOS
+PROFESORES
+TARES Y/O FOROS
+NOTAS
+
+
+#PETICIONES
+- get
+    - solicitamos una tarea al servidor
+- post
+    - enviamos una peticion
+
+
+- put
+- delete

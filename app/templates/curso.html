@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+</head>
+<body>
+    <a href="/">VAMOS A ESTUDIANTE</a>
+    {{cursos}}
+    <!-- / = https://www.localhost.com -->
+    <!-- /guardar = https://www.localhost.com/guardar -->
+    <form action="/curso/guardar" method="POST">
+        <input type="text" name="id" class="text">
+        <input type="text" name="nombre" class="text">
+        <input type="submit" class="submit">
+    </form>
+</body>
+</html>
